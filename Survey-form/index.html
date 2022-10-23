@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <title>slava ukraine</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="inline" id="title">Slava Ukraini</h1>
+    <p id="description">This survey is important to us in order to make sure we stand together</p>
+    <form id="survey-form">
+      <fieldset id="personal">
+        <h3>Your personal information</h3>
+        <label id="name-lable">
+          Name
+          <input id="name" type="text" placeholder="Enter your name" />
+        </label>
+        <label id="email-label">
+          Email
+          <input id="email" type="email" placeholder="Enter your email" />
+        </label>
+        <label id="number-label">
+          Age
+          <input id="number" type="number" min="13" max="120" placeholder="Enter your age" />
+        </label>
+        <label for="dropdown">
+          Which option describes you the best
+          <select id="dropdown"> 
+            <option>select</option>
+            <option>Student</option>
+            <option>Employee</option>
+            <option>Employer</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset id="checks">
+		<h3>Are you for or against russian invasion in Ukraine?</h3>
+        <label for="dick-user">
+          <input id="dick-user" name="for-against" type="radio" />
+          For
+        </label>
+        <label for="sure">
+          <input id="sure" name="for-against" type="radio" />
+          Against
+        </label>
+        <h3>How can you help us?</h3>
+        <label for="home">
+          <input id="home" type="checkbox" value="1" />
+          I can provide home
+        </label>
+        <label for="food">
+          <input id="food" type="checkbox" value="2" />
+          I can provide food
+        </label>
+        <label for="soldier">
+          <input id="soldier" type="checkbox" value="3" />
+          I can join Ukrainian arm forces
+        </label>
+        <h3>Bio</h3>
+        <label for="bio">Tell us about you...
+          <textarea id="bio" placeholder="I am ..." rows="4" cols="45"></textarea>
+        </label>
+        <input type="submit" value="Submit" id="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

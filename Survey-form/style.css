@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(https://static.citylifestyle.com/articles/slava-ukraini/1120355813-1600.jpg?v=1);
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(5px)
+}
+h1, p {
+  text-align: center;
+  color: yellow;
+}
+
+
+h3 {
+  border-top: 5px solid yellow;
+  padding-top: 10px;
+  margin: 0 10px;
+}
+
+form {
+  background-color: white;
+  opacity: 0.75;
+  height: auto;
+  min-width: 250px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 15px
+}
+
+label, input {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  background-color: black;;
+  color: yellow;
+  width: 70%;
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+fieldset {
+  border: none;
+  padding: 20px 0;
+}
+
+#dropdown {
+  display: block;
+  margin: 10px 10px;
+  width: 70%;
+  height: 2rem;
+}
+
+input[type="radio"],[type="checkbox"] {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#bio {
+  display: block;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+ 
+input[type="submit"] {
+  width: 20%;
+  height: 30px;
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-style: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: yellow;
+  color: black;
+}
+
